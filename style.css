@@ -1,0 +1,181 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+/* Apply the Google font to the entire body and background image */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#icon{
+    width: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+/* Changing the font style of headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #000080;
+}
+
+/* Making paragraph words bigger */
+p {
+    font-size: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #FFD580;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* Makes the nav text bold */
+nav {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #000080 !important; /* Highlight color on hover */
+}
+
+/* Section styling */
+section {
+    padding: 60px 0;
+}
+
+/* About Me Section */
+.section-content {
+    padding: 1rem; /* Padding around the content */
+}
+
+.section-content ul {
+    border: 2px solid #ffc107; /* Yellow outline for headings, paragraphs, and lists */
+    padding: 3rem; /* Padding inside the outlined elements */
+    margin: 30px;
+}
+
+/* Project grid */
+#project .card {
+    color: black;
+    margin-bottom: 30px;
+    border: 4px solid #ddd; /* Border for the project cards */
+}
+
+.card-title {
+    font-weight: bold;
+    color: #000080;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Section title styling */
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Social media icons styling */
+address img {
+    margin-right: 10px;
+}
+
+/* Ensure the footer text is centered */
+.footer p {
+    margin: 0;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #FFD580 !important;
+    color: black;
+    border-top: 2px solid black;
+    padding: 20px 0;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: black;
+    color: white;
+     background-image: url('images/background-dark.jpg');
+          background-size: cover;
+          background-attachment:fixed;
+          background-repeat: no-repeat;
+          background-position: center;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+    border-bottom: 2px solid #555;
+}
+
+.dark-mode .navbar-brand {
+    color: #fff !important;
+}
+
+.dark-mode .nav-link {
+    color: #fff !important;
+}
+
+.dark-mode .nav-link:hover {
+    color: #ccc !important;
+}
+
+.dark-mode .section-content {
+    border-color: #444; /* Dark border for section content */
+}
+
+.dark-mode .card {
+    border: 4px solid #555; /* Darker border for cards */
+}
+
+.dark-mode .btn-primary {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.dark-mode .footer {
+    background-color: #333 !important;
+    color: white;
+    border-top: 2px solid #555;
+}
+
+/* Change header colors in dark mode */
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+               color: white;
+           }
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode .card{
+    background:black;
+    border: 1px solid #555;
+{
+
+/* Change the color of the date text */
+.dark-mode .card-subtitle.text-muted {
+    color: white !important;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Portfolio</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for specific styles */
+        .navbar-brand {
+            font-family: 'Playwrite US Modern', sans-serif;
+            color: #000080 !important;
+        }
+        .section-title {
+            text-transform: uppercase;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+
+    </style>
+    <!-- Links to CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Victor Kwan</a> <!-- Inline CSS for color -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            </ul>
+            <!-- Dark/Light Mode Toggle Button -->
+            <button class="btn btn-outline-secondary ms-2" id="mode-switch">
+                <i class="bi bi-moon"></i> <!-- Bootstrap Icons for moon and sun -->
+                <span class="d-none d-sm-inline">Dark Mode</span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="text-center">
+    <div class="container">
+        <h1 style>Victor Kwan</h1>
+        <p>Welcome to my portfolio. I am a third-year IT student at York University with a passion for computer networks, algorithms, and system administration. I have a solid background in IT infrastructure and a Google IT Support Specialization certificate. Explore my projects and blog to see how I blend technical expertise with creative problem-solving to deliver effective solutions.</p>
+        <h3>Thank you for visiting!</h3>
+        <img src="images/IMG_0186.JPG" class="img-fluid rounded-circle" alt="My Face">
+        <h4>Contact me: 416-602-0338</h4>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="text-center">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="container about-me">
+                <h2 class="section-title">About Me</h2>
+                <div class="row">
+                    <!-- Biography -->
+                    <div class="col-md-6 section-content">
+                        <h3>Biography</h3>
+                        <p>Hello! I'm Victor Kwan, an aspiring IT professional currently pursuing an Honours Bachelor of Arts in Information Technology at York University, with an expected graduation date of 2025.</p>
+                        <p>Currently, I serve as a Cyber-Seniors Mentor, where I teach seniors essential computer, smartphone, and internet skills. I focus on online safety, email setup, file organization, and troubleshooting, tailoring my lessons to meet individual learning needs. This volunteer work has allowed me to foster a supportive learning environment and make a meaningful impact helping seniors learn. In addition to my technical skills, I am committed to helping others navigate the digital world safely and confidently. My work with Cyber Seniors demonstrates my passion for teaching and my ability to create personalized, effective learning plans.</p>
+                        <p>I hold several professional certifications, including the OpenEDG Python Institute's Programming with Python Professional Certificate, Zendesk Customer Service Professional Certificate, and Google IT Support Specialization. These certifications reflect my dedication to continuous learning and my proficiency in key technical areas.</p>
+                        <p>Thank you for taking the time to learn more about me. I invite you to connect with me on LinkedIn or reach out via email if you have any questions or opportunities to discuss.</p>
+                    </div>
+                    <!-- Education and Certifications -->
+                    <div class="col-md-6 section-content">
+                        <h3>Education and Certifications</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Honours Bachelor of Arts in Information Technology, York University</li>
+                            <li class="list-group-item">OpenEDG Python Institute: Programming with Python Professional Certificate: Issued March 2024</li>
+                            <li class="list-group-item">Zendesk Customer Service Professional Certificate: Issued March 2024</li>
+                            <li class="list-group-item">Google IT Support Specialization: April 2024</li>
+                            <li class="list-group-item">CyberSenior Mentor Training Program: May 2024</li>
+                        </ul>
+                    </div>
+                    <!-- Skills -->
+                    <div class="col-md-6 section-content">
+                        <h3>Skills</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Programming Languages: Python, Java, Matlab</li>
+                            <li class="list-group-item">Web Development: HTML, CSS, Bootstrap</li>
+                            <li class="list-group-item">Organizational Skills</li>
+                            <li class="list-group-item">Teamwork</li>
+                            <li class="list-group-item">Customer Service</li>
+                            <li class="list-group-item">IT Support</li>
+                            <li class="list-group-item">Communication</li>
+                        </ul>
+                    </div>
+                    <!-- Interests -->
+                    <div class="col-md-6 section-content">
+                        <h3>Interests</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Coding</li>
+                            <li class="list-group-item">Reading</li>
+                            <li class="list-group-item">Video Games</li>
+                            <li class="list-group-item">Dinosaurs</li>
+                            <li class="list-group-item">History</li>
+                            <li class="list-group-item">Exercise</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="project" class="jumbtron text-center">
+    <div class="container-fluid"></div>
+    <h2>Projects</h2>
+    <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6">
+            <div class="card">
+                <img src="images/IFixit.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">iFixit Website</h5>
+                    <p class="card-text">This project involved creating an iFixit guide for replacing the windshield wiper blades
+                        on a Nissan Sentra, covering models from 2013 to 2024. The guide features clear, step-by-step instructions and
+                        high-quality images, making it accessible and easy to follow.</p>
+                    <!-- View project link -->
+                    <a href="https://www.ifixit.com/Guide/2013+2014+2015+2016+2017+2018+2019+2020+2021+2022+2023+2024+Nissan+Sentra+Windshield+Wiper+Blades+Replacement/169415" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-6">
+            <div class="card">
+                <img src="images/webiste.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title">HTML Website</h5>
+                    <p class="card-text">In this project, I designed and developed a personal portfolio website using HTML, CSS,
+                        and the Bootstrap framework. The website showcases my professional work, projects, and skills in a visually
+                        appealing and user-friendly manner.</p>
+                    <!-- View project link -->
+                    <a href="https://github.com/Freezeadon/VictorKwan" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-6">
+            <div class="card">
+                <img src="images/Billing.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title">Electricity Sign-in</h5>
+                    <p class="card-text">In this project, my group and I created a Java sign-in program using object-oriented programming principles.</p>
+                    <!-- View project link -->
+                    <a href="https://github.com/Freezeadon/Electricity-Bill" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-6">
+            <div class="card">
+                <img src="images/ball.png" class="card-img-top" alt="Project 4">
+                <div class="card-body">
+                    <h5 class="card-title">Ball Animation</h5>
+                    <p class="card-text">In this project I used Autodesk Maya to animate a 3D ball bouncing around.
+                        I followed the 12 Principles in Animation to asset in making the bouncing as realistic as possible</p>
+                    <!-- View project link -->
+                    <a href="https://www.youtube.com/watch?v=wKTOeuQf3pI" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2 class="text-center"> Contact Me</h2>
+        <form>
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <!-- Subject Field -->
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" required>
+            </div>
+            <!-- Message Field -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <address>
+            <div class="mt-4">
+                <a href="mailto:victork300@hotmail.com" target="_blank" style="margin-right: 10px;">
+                    <img src="images/Email.jpg" alt="Email" width="40" height="40">
+                </a>
+                <a href="https://www.linkedin.com/in/victor-kwan-01b062195/" target="_blank" style="margin-right: 10px;">
+                    <img src="images/linkedin.jpg" alt="LinkedIn" width="40" height="40">
+                </a>
+                <a href="https://github.com/Freezeadon" target="_blank" style="margin-right: 10px;">
+                    <img src="images/GitHub.png" alt="GitHub" width="40" height="40">
+                </a>
+            </div>
+        </address>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center mt-4">
+    <p>©2024 Victor Kwan. All rights reserved.</p>
+    <p class="footer-content">Email: victork300@hotmail.com <br> Phone Number: 416-602-0338</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="dark-mode.js"></script>
+<script src=""></script>
+</body>
+</html>
